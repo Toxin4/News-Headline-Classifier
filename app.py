@@ -18,10 +18,21 @@ st.markdown("""
 
 html, body, [class*="css"] { font-family: 'Source Sans 3', sans-serif; }
 
-h1 { font-family: 'Playfair Display', serif !important; font-size: 2.4rem !important;
-     color: #1a1a2e !important; margin-bottom: 0.2rem !important; }
+h1 
+    { 
+        font-family: 'Playfair Display', 
+        serif; 
+        font-size: 2.4rem;
+        color: #0000FF; 
+        margin-bottom: 0.2rem; 
+    }
 
-.subtitle { color: #555; font-size: 1.05rem; margin-bottom: 2rem; }
+.subtitle 
+    { 
+        color: #555; 
+        font-size: 1.05rem; 
+        margin-bottom: 2rem; 
+    }
 
 .result-box { background: #f0f4ff; border-left: 5px solid #3a5bd9;
     border-radius: 8px; padding: 1.2rem 1.5rem; margin-top: 1.5rem; }
@@ -29,23 +40,48 @@ h1 { font-family: 'Playfair Display', serif !important; font-size: 2.4rem !impor
 .result-label { font-size: 0.85rem; text-transform: uppercase;
     letter-spacing: 1px; color: #888; margin-bottom: 0.3rem; }
 
-.result-value { font-family: 'Playfair Display', serif; font-size: 2rem;
-    color: #1a1a2e; font-weight: 700; }
+.result-value 
+    { 
+        font-family: 'Playfair Display', serif; 
+        font-size: 2rem;
+        color: #0000FF; font-weight: 700; 
+    }
 
 .category-emoji { font-size: 2.5rem; margin-bottom: 0.5rem; }
 
-.stTextArea textarea { border-radius: 8px !important; font-size: 1rem !important;
-    font-family: 'Source Sans 3', sans-serif !important; }
+.stTextArea textarea 
+    { 
+        border-radius: 8px; 
+        font-size: 1rem;
+    }
 
-.stButton > button { background-color: #1a1a2e !important; color: white !important;
-    border: none !important; border-radius: 8px !important; padding: 0.6rem 2rem !important;
-    font-size: 1rem !important; font-family: 'Source Sans 3', sans-serif !important;
-    font-weight: 600 !important; }
+.stButton > button 
+    { 
+        background-color: #1a1a2e; 
+        color: white;
+        border: none; 
+        border-radius: 8px;
+        padding: 0.6rem 2rem;
+        font-size: 1rem; 
+        font-weight: 600; 
+        width: 100% !important;
+        height: 60px !important;
+    }
 
-.stButton > button:hover { background-color: #3a5bd9 !important; }
+.stButton > button:hover 
+    { 
+        background-color: #3a5bd9; 
+    }
 
-.warning-box { background: #fff8e1; border-left: 4px solid #f5a623;
-    border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.9rem; color: #7a5700; }
+.warning-box 
+    { 
+        background: #fff8e1; 
+        border-left: 4px solid #f5a623;
+        border-radius: 6px; 
+        padding: 0.8rem 1rem; 
+        font-size: 0.9rem; 
+        color: #7a5700; 
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -120,9 +156,9 @@ examples = {
 with col1:
     if st.button("🏛️ Política"):     st.session_state["ex"] = examples["pol"]
 with col2:
-    if st.button("🌿 Wellness"):      st.session_state["ex"] = examples["well"]
+    if st.button("🌿 Saúde"):      st.session_state["ex"] = examples["well"]
 with col3:
-    if st.button("🎬 Entretenim."):   st.session_state["ex"] = examples["ent"]
+    if st.button("🎬 Cultura"):   st.session_state["ex"] = examples["ent"]
 with col4:
     if st.button("✈️ Viagem"):        st.session_state["ex"] = examples["trav"]
 with col5:
