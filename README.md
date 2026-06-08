@@ -168,7 +168,7 @@ pip install -r requirements.txt
 
 **3. Abra e execute o notebook:**
 ```bash
-jupyter notebook notebooks/notebook_atualizado.ipynb
+jupyter notebook notebooks/News_Grupo_L_Revisado_1.ipynb
 ```
 > Ou abra diretamente no Google Colab via *File → Upload notebook*
 
@@ -182,8 +182,8 @@ Execute as células em ordem. O notebook irá carregar os dados, treinar os mode
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/SEU_USUARIO/news-headline-classifier.git
-cd news-headline-classifier
+git clone https://github.com/Toxin4/News-Headline-Classifier.git
+cd News-Headline-Classifier
 
 # 2. Instale as dependências
 pip install -r requirements.txt
@@ -201,7 +201,7 @@ O app abrirá automaticamente no navegador em `http://localhost:8501`.
 
 ## Link do App Publicado
 
- **[Acesse a aplicação aqui]([https://INSIRA-O-LINK-AQUI.streamlit.app](https://news-headline-classifier-adapsbgurzudtwor6he897.streamlit.app/))**
+ **[Acesse a aplicação aqui]((https://news-headline-classifier-adapsbgurzudtwor6he897.streamlit.app/))**
 
 ---
 
